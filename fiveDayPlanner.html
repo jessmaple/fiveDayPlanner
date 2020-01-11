@@ -5,34 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Five Day Planner</title>
-    <link rel="stylesheet" href="./fiveDayPlanner.css">
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> <!-- Link to Moment.js should go here -->
-  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
-
-
-
+    <link rel="stylesheet" href="./fiveDayPlanner.css" />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- Link to Moment.js should go here -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
   </head>
   <body>
-   
-  
     <div class="container">
+      <div class="jumbotron text-center bg-transparent">
+        <h1>Five Day Planner</h1>
 
-       <div class="jumbotron text-center bg-transparent">
-           <h1>Five Day Planner</h1>
+        <hr />
+        <div class="showDate"></div>
+      </div>
 
-           <hr>
-             <div class="showDate"></div>
-       </div>
-
-         <div  id="displayPlanner">
-           
-               
-
-         </div>
-
+      <div id="displayPlanner"></div>
     </div>
 
     <script src="./fiveDayPlanner.js"></script>
