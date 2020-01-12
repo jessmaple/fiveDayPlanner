@@ -1,11 +1,8 @@
-// 1. Create an app that has time slots from 9AM to 5PM
-// 2. App should contain time slots, time slots should contain:
-// - Time
-// - A field to hold user Input
-// - A save button
-
-// 3. Save button should store time and user input in localStorage
-// 4. App should display current day
+//1. Create time slots from 9AM to 9PM in divs (columns should have time, field for user Input, and save button)
+//2. Create columns using bootstrap rows
+//3. Add click listener to "save" button
+//4. Use array to store time and user input in localStorage
+//5. Select text box to obtain
 
 var workHours = [9, 10, 11, 12, 1, 2, 3, 4, 5];
 
@@ -15,7 +12,6 @@ var currentDate = moment().format("dddd, MMMM Do YYYY");
 $(".showDate").html(currentDate);
 
 function showPlanner() {
-    
   var row = $("<div class = 'row'>");
   var columnOne = $("<div class = 'col-sm-2'>");
   columnOne.html(workHours[0] + "AM");
@@ -29,7 +25,6 @@ function showPlanner() {
   row.append(columnOne, columnTwo, columnThree);
 
   $("#displayPlanner").append(row);
-  
 }
 
 showPlanner();
