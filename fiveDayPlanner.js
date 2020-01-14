@@ -4,6 +4,7 @@
 //4. Use array to store time and user input in localStorage
 //5. Select text box to obtain
 
+
 var workHours = [9, 10, 11, 12, 1, 2, 3, 4, 5];
 
 //https://devhints.io/moment
