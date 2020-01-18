@@ -15,3 +15,8 @@ Built with:
 - Bootstrap
 - Moment.js
 - jQuery
+
+# How to use
+
+1. Add planning details to text box.
+2. Click save.
