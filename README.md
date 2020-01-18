@@ -8,7 +8,7 @@ I am a busy student, working professional, and full-time bootcamp student. My sc
 
 # Screenshots
 
-![image of application](https://i.imgur.com/RlqZkGU.png)
+![image of application](https://i.imgur.com/hafHeDP.png)
 
 # Tech/Frameworks Used
 
