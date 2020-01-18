@@ -8,7 +8,9 @@ I am a busy student, working professional, and full time bootcamp student. My sc
 
 # Screenshots
 
-# Technology
+# Tech/Frameworks Used
+
+Built with:
 
 - Bootstrap
 - Moment.js
