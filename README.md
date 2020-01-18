@@ -8,7 +8,7 @@ I am a busy student, working professional, and full-time bootcamp student. My sc
 
 # Screenshots
 
-! [image of five day planner](fdp.png)
+! [image of five day planner](https://imgur.com/a/nRQt3KV)
 
 # Tech/Frameworks Used
 
