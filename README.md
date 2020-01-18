@@ -22,3 +22,6 @@ Built with:
 2. Click save.
 
 # Project Links
+
+- https://github.com/jessmaple/fiveDayPlanner
+- https://jessmaple.github.io/fiveDayPlanner/
